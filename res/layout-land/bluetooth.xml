@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.1" >
+	    <ListView
+	        android:id="@+id/bluetooth_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" >
+	    </ListView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+       <com.google.ads.AdView
+           android:id="@+id/adViewBt"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           ads:adSize="BANNER"
+           ads:adUnitId="a150a6822c5f046"
+           ads:loadOnCreate="true" />
+    </LinearLayout>
+
+</LinearLayout>

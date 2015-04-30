@@ -1,0 +1,96 @@
+com.google.ads.AdActivity
+com.google.ads.AdActivity: AdActivity()
+com.google.ads.AdActivity: void onClick(android.view.View)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.app.Activity,com.google.ads.AdSize,java.lang.String)
+com.google.ads.AdView: AdView(android.app.Activity,com.google.ads.AdSize[],java.lang.String)
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.AdView: void setAdListener(com.google.ads.AdListener)
+com.google.ads.AdView: void setAppEventListener(com.google.ads.AppEventListener)
+com.google.ads.AdView: void setSupportedAdSizes(com.google.ads.AdSize[])
+com.google.ads.ai$b: com.google.ads.ai$b[] values()
+com.google.ads.ai$b: com.google.ads.ai$b valueOf(java.lang.String)
+com.google.ads.doubleclick.DfpAdView: void setAppEventListener(com.google.ads.AppEventListener)
+com.google.ads.doubleclick.DfpAdView: void setSupportedAdSizes(com.google.ads.AdSize[])
+com.google.ads.g$a: com.google.ads.g$a[] values()
+com.google.ads.g$a: com.google.ads.g$a valueOf(java.lang.String)
+com.google.ads.internal.AdVideoView: void setMediaControllerEnabled(boolean)
+com.google.ads.internal.AdVideoView: void setSrc(java.lang.String)
+com.google.ads.internal.AdWebView: void setAdActivity(com.google.ads.AdActivity)
+com.google.ads.internal.AdWebView: void setAdSize(com.google.ads.AdSize)
+com.google.ads.internal.AdWebView: void setCustomClose(boolean)
+com.google.ads.internal.AdWebView: void setIsExpandedMraid(boolean)
+com.google.ads.internal.c$d: com.google.ads.internal.c$d[] values()
+com.google.ads.internal.c$d: com.google.ads.internal.c$d valueOf(java.lang.String)
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType[] values()
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType valueOf(java.lang.String)
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
+com.google.ads.util.b$a: com.google.ads.util.b$a[] values()
+com.google.ads.util.b$a: com.google.ads.util.b$a valueOf(java.lang.String)
+com.kulver.blueque.R$drawable: int drawable_small_indicator
+com.kulver.blueque.R$drawable: int ic_added
+com.kulver.blueque.R$drawable: int ic_dir_up
+com.kulver.blueque.R$drawable: int ic_file
+com.kulver.blueque.R$drawable: int ic_folder
+com.kulver.blueque.R$drawable: int ic_home
+com.kulver.blueque.R$drawable: int ic_launcher
+com.kulver.blueque.R$drawable: int ic_menu_about
+com.kulver.blueque.R$drawable: int ic_menu_addall
+com.kulver.blueque.R$drawable: int ic_menu_bluetooth
+com.kulver.blueque.R$drawable: int ic_menu_bt_settings
+com.kulver.blueque.R$drawable: int ic_menu_que
+com.kulver.blueque.R$drawable: int ic_menu_removeall
+com.kulver.blueque.R$drawable: int ic_menu_scan
+com.kulver.blueque.R$drawable: int progress_small_1
+com.kulver.blueque.R$drawable: int progress_small_2
+com.kulver.blueque.R$drawable: int progress_small_3
+com.kulver.blueque.R$drawable: int progress_small_4
+com.kulver.blueque.R$drawable: int progress_small_5
+com.kulver.blueque.R$drawable: int progress_small_6
+com.kulver.blueque.R$drawable: int progress_small_7
+com.kulver.blueque.R$drawable: int progress_small_8
+com.kulver.blueque.R$id: int about
+com.kulver.blueque.R$id: int adView
+com.kulver.blueque.R$id: int adViewBt
+com.kulver.blueque.R$id: int adViewQue
+com.kulver.blueque.R$id: int addAll
+com.kulver.blueque.R$id: int blue_settings
+com.kulver.blueque.R$id: int bluetooth_address
+com.kulver.blueque.R$id: int bluetooth_list
+com.kulver.blueque.R$id: int bluetooth_name
+com.kulver.blueque.R$id: int bluetooth_state
+com.kulver.blueque.R$id: int cancel_transfer_button
+com.kulver.blueque.R$id: int clear
+com.kulver.blueque.R$id: int icon
+com.kulver.blueque.R$id: int path
+com.kulver.blueque.R$id: int que
+com.kulver.blueque.R$id: int que_clear
+com.kulver.blueque.R$id: int que_list
+com.kulver.blueque.R$id: int rowtext
+com.kulver.blueque.R$id: int scan
+com.kulver.blueque.R$id: int send
+com.kulver.blueque.R$id: int send_main
+com.kulver.blueque.R$id: int transfer_indicator
+com.kulver.blueque.R$id: int transfer_progressBar
+com.kulver.blueque.R$id: int transfer_status_curr_file
+com.kulver.blueque.R$id: int transfer_status_files
+com.kulver.blueque.R$id: int transferring_message
+com.kulver.blueque.R$layout: int bluetooth
+com.kulver.blueque.R$layout: int bluetooth_row
+com.kulver.blueque.R$layout: int main
+com.kulver.blueque.R$layout: int que
+com.kulver.blueque.R$layout: int row
+com.kulver.blueque.R$layout: int transfer_progress
+com.kulver.blueque.R$menu: int bluetooth_menu
+com.kulver.blueque.R$menu: int menu
+com.kulver.blueque.R$menu: int que_menu
+com.kulver.blueque.R$string: int about_text
+com.kulver.blueque.R$string: int app_name
+com.kulver.blueque.front.BluequeActivity
+com.kulver.blueque.front.BluequeActivity: BluequeActivity()

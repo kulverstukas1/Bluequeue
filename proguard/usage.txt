@@ -1,0 +1,254 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.google.ads.Ad:
+    public abstract boolean isReady()
+    public abstract void loadAd(com.google.ads.AdRequest)
+    public abstract void setAdListener(com.google.ads.AdListener)
+    public abstract void stopLoading()
+com.google.ads.AdActivity:
+    public static final java.lang.String BASE_URL_PARAM
+    public static final java.lang.String HTML_PARAM
+    public static final java.lang.String URL_PARAM
+    public static final java.lang.String CUSTOM_CLOSE_PARAM
+    public static final java.lang.String INTENT_ACTION_PARAM
+    public static final java.lang.String TYPE_PARAM
+    public static final java.lang.String ORIENTATION_PARAM
+com.google.ads.AdRequest:
+    public static final java.lang.String VERSION
+    public static final java.lang.String LOGTAG
+    228:229:public com.google.ads.AdRequest setGender(com.google.ads.AdRequest$Gender)
+    237:237:public com.google.ads.AdRequest$Gender getGender()
+    250:262:public com.google.ads.AdRequest setBirthday(java.lang.String)
+    271:277:public com.google.ads.AdRequest setBirthday(java.util.Date)
+    287:293:public com.google.ads.AdRequest setBirthday(java.util.Calendar)
+    301:301:public java.util.Date getBirthday()
+    309:310:public com.google.ads.AdRequest clearBirthday()
+    327:328:public com.google.ads.AdRequest setPlusOneOptOut(boolean)
+    341:341:public boolean getPlusOneOptOut()
+    367:372:public com.google.ads.AdRequest addKeyword(java.lang.String)
+    385:390:public com.google.ads.AdRequest addKeywords(java.util.Set)
+    401:405:public java.util.Set getKeywords()
+    415:419:private synchronized com.google.ads.mediation.admob.AdMobAdapterExtras a()
+    434:435:public com.google.ads.AdRequest setExtras(java.util.Map)
+    452:458:public com.google.ads.AdRequest addExtra(java.lang.String,java.lang.Object)
+    485:486:public com.google.ads.AdRequest removeNetworkExtras(java.lang.Class)
+    509:510:public com.google.ads.AdRequest setMediationExtras(java.util.Map)
+    524:529:public com.google.ads.AdRequest addMediationExtra(java.lang.String,java.lang.Object)
+    540:541:public com.google.ads.AdRequest setLocation(android.location.Location)
+    549:549:public android.location.Location getLocation()
+    564:565:public com.google.ads.AdRequest setTesting(boolean)
+    687:692:public com.google.ads.AdRequest addTestDevice(java.lang.String)
+com.google.ads.AdSize:
+    public static final int FULL_WIDTH
+    public static final int AUTO_HEIGHT
+    public static final int LANDSCAPE_AD_HEIGHT
+    public static final int PORTRAIT_AD_HEIGHT
+    public static final int LARGE_AD_HEIGHT
+    291:291:public int getWidthInPixels(android.content.Context)
+    301:301:public int getHeightInPixels(android.content.Context)
+    317:317:public boolean isSizeAppropriate(int,int)
+    339:359:public varargs com.google.ads.AdSize findBestSize(com.google.ads.AdSize[])
+com.google.ads.AdView:
+    274:275:public void destroy()
+    574:578:public boolean isReady()
+    684:687:public void stopLoading()
+com.google.ads.InterstitialAd:
+    private com.google.ads.internal.d a
+    82:83:public InterstitialAd(android.app.Activity,java.lang.String)
+    97:99:public InterstitialAd(android.app.Activity,java.lang.String,boolean)
+    108:108:public boolean isReady()
+    120:121:public void loadAd(com.google.ads.AdRequest)
+    130:131:public void show()
+    142:143:public void setAdListener(com.google.ads.AdListener)
+    151:152:protected void setAppEventListener(com.google.ads.AppEventListener)
+    161:162:public void stopLoading()
+com.google.ads.doubleclick.DfpAdView
+com.google.ads.doubleclick.DfpExtras:
+    25:30:public DfpExtras(com.google.ads.doubleclick.DfpExtras)
+    46:47:public com.google.ads.doubleclick.DfpExtras setPublisherProvidedId(java.lang.String)
+    55:56:public com.google.ads.doubleclick.DfpExtras setPlusOneOptOut(boolean)
+    61:62:public com.google.ads.doubleclick.DfpExtras setUseExactAdSize(boolean)
+    67:68:public com.google.ads.doubleclick.DfpExtras setExtras(java.util.Map)
+    79:80:public com.google.ads.doubleclick.DfpExtras addExtra(java.lang.String,java.lang.Object)
+    12:12:public bridge synthetic com.google.ads.mediation.admob.AdMobAdapterExtras addExtra(java.lang.String,java.lang.Object)
+    12:12:public bridge synthetic com.google.ads.mediation.admob.AdMobAdapterExtras setExtras(java.util.Map)
+    12:12:public bridge synthetic com.google.ads.mediation.admob.AdMobAdapterExtras setUseExactAdSize(boolean)
+    12:12:public bridge synthetic com.google.ads.mediation.admob.AdMobAdapterExtras setPlusOneOptOut(boolean)
+com.google.ads.doubleclick.DfpInterstitialAd
+com.google.ads.e:
+    112:122:public void b()
+    199:205:private boolean a(com.google.ads.h,java.lang.String)
+    211:221:public void a(com.google.ads.h,boolean)
+    226:242:public void a(com.google.ads.h,android.view.View)
+    246:255:public void a(com.google.ads.h)
+    259:268:public void b(com.google.ads.h)
+    272:281:public void c(com.google.ads.h)
+    292:301:public boolean c()
+    472:474:private com.google.ads.h e()
+    51:51:static synthetic com.google.ads.h c(com.google.ads.e)
+com.google.ads.e$2
+com.google.ads.e$3
+com.google.ads.e$4
+com.google.ads.e$5
+com.google.ads.e$6
+com.google.ads.f:
+    79:79:public java.util.List e()
+com.google.ads.h:
+    123:123:public com.google.ads.f a()
+    219:245:public synchronized void g()
+    273:273:synchronized com.google.ads.mediation.MediationAdapter i()
+    280:280:com.google.ads.e j()
+    284:285:synchronized void a(android.view.View)
+com.google.ads.h$2
+com.google.ads.internal.c:
+    600:620:protected void a()
+com.google.ads.internal.d:
+    329:338:public synchronized void b()
+    544:544:public synchronized boolean r()
+    722:725:public synchronized void a(com.google.ads.f,boolean)
+    865:882:private void b(com.google.ads.f,java.lang.Boolean)
+    1078:1105:public synchronized void z()
+    1114:1123:public synchronized void A()
+com.google.ads.j:
+    private boolean b
+    34:66:public void onReceivedAd(com.google.ads.mediation.MediationBannerAdapter)
+    72:87:public void onFailedToReceiveAd(com.google.ads.mediation.MediationBannerAdapter,com.google.ads.AdRequest$ErrorCode)
+    92:95:public void onPresentScreen(com.google.ads.mediation.MediationBannerAdapter)
+    99:102:public void onDismissScreen(com.google.ads.mediation.MediationBannerAdapter)
+    106:109:public void onLeaveApplication(com.google.ads.mediation.MediationBannerAdapter)
+    113:117:public void onClick(com.google.ads.mediation.MediationBannerAdapter)
+com.google.ads.k:
+    29:40:public void onReceivedAd(com.google.ads.mediation.MediationInterstitialAdapter)
+    45:61:public void onFailedToReceiveAd(com.google.ads.mediation.MediationInterstitialAdapter,com.google.ads.AdRequest$ErrorCode)
+    66:69:public void onPresentScreen(com.google.ads.mediation.MediationInterstitialAdapter)
+    74:77:public void onDismissScreen(com.google.ads.mediation.MediationInterstitialAdapter)
+    81:84:public void onLeaveApplication(com.google.ads.mediation.MediationInterstitialAdapter)
+com.google.ads.mediation.EmptyNetworkExtras
+com.google.ads.mediation.MediationAdRequest:
+    50:50:public com.google.ads.AdRequest$Gender getGender()
+    57:57:public java.util.Date getBirthday()
+    67:81:public java.lang.Integer getAgeInYears()
+    88:92:public java.util.Set getKeywords()
+    100:104:public android.location.Location getLocation()
+    114:114:public boolean isTesting()
+com.google.ads.mediation.MediationBannerAdapter:
+    public abstract android.view.View getBannerView()
+com.google.ads.mediation.MediationBannerListener:
+    public abstract void onReceivedAd(com.google.ads.mediation.MediationBannerAdapter)
+    public abstract void onFailedToReceiveAd(com.google.ads.mediation.MediationBannerAdapter,com.google.ads.AdRequest$ErrorCode)
+    public abstract void onPresentScreen(com.google.ads.mediation.MediationBannerAdapter)
+    public abstract void onDismissScreen(com.google.ads.mediation.MediationBannerAdapter)
+    public abstract void onLeaveApplication(com.google.ads.mediation.MediationBannerAdapter)
+    public abstract void onClick(com.google.ads.mediation.MediationBannerAdapter)
+com.google.ads.mediation.MediationInterstitialAdapter:
+    public abstract void showInterstitial()
+com.google.ads.mediation.MediationInterstitialListener:
+    public abstract void onReceivedAd(com.google.ads.mediation.MediationInterstitialAdapter)
+    public abstract void onFailedToReceiveAd(com.google.ads.mediation.MediationInterstitialAdapter,com.google.ads.AdRequest$ErrorCode)
+    public abstract void onPresentScreen(com.google.ads.mediation.MediationInterstitialAdapter)
+    public abstract void onDismissScreen(com.google.ads.mediation.MediationInterstitialAdapter)
+    public abstract void onLeaveApplication(com.google.ads.mediation.MediationInterstitialAdapter)
+com.google.ads.mediation.admob.AdMobAdapter
+com.google.ads.mediation.admob.AdMobAdapter$1
+com.google.ads.mediation.admob.AdMobAdapter$a
+com.google.ads.mediation.admob.AdMobAdapter$b
+com.google.ads.mediation.admob.AdMobAdapterExtras:
+    31:38:public AdMobAdapterExtras(com.google.ads.mediation.admob.AdMobAdapterExtras)
+    51:52:public com.google.ads.mediation.admob.AdMobAdapterExtras setPlusOneOptOut(boolean)
+    77:78:public com.google.ads.mediation.admob.AdMobAdapterExtras setUseExactAdSize(boolean)
+    87:87:public boolean getUseExactAdSize()
+    110:114:public com.google.ads.mediation.admob.AdMobAdapterExtras setExtras(java.util.Map)
+    136:137:public com.google.ads.mediation.admob.AdMobAdapterExtras addExtra(java.lang.String,java.lang.Object)
+com.google.ads.mediation.admob.AdMobAdapterServerParameters
+com.google.ads.mediation.customevent.CustomEvent
+com.google.ads.mediation.customevent.CustomEventAdapter
+com.google.ads.mediation.customevent.CustomEventAdapter$a
+com.google.ads.mediation.customevent.CustomEventAdapter$b
+com.google.ads.mediation.customevent.CustomEventBanner
+com.google.ads.mediation.customevent.CustomEventBannerListener
+com.google.ads.mediation.customevent.CustomEventExtras
+com.google.ads.mediation.customevent.CustomEventInterstitial
+com.google.ads.mediation.customevent.CustomEventInterstitialListener
+com.google.ads.mediation.customevent.CustomEventListener
+com.google.ads.mediation.customevent.CustomEventServerParameters
+com.google.ads.searchads.SearchAdRequest:
+    91:92:public void setQuery(java.lang.String)
+    101:108:public void setBackgroundColor(int)
+    120:127:public void setBackgroundGradient(int,int)
+    137:138:public void setHeaderTextColor(int)
+    148:149:public void setDescriptionTextColor(int)
+    159:160:public void setAnchorTextColor(int)
+    168:169:public void setFontFace(java.lang.String)
+    178:179:public void setHeaderTextSize(int)
+    189:190:public void setBorderColor(int)
+    197:198:public void setBorderType(com.google.ads.searchads.SearchAdRequest$BorderType)
+    207:208:public void setBorderThickness(int)
+    215:216:public void setCustomChannels(java.lang.String)
+com.google.ads.util.a:
+    37:38:public static void a(boolean)
+    53:55:public static void a(java.lang.Object)
+com.kulver.blueque.BuildConfig
+com.kulver.blueque.R
+com.kulver.blueque.R$attr
+com.kulver.blueque.R$drawable
+com.kulver.blueque.R$id
+com.kulver.blueque.R$layout
+com.kulver.blueque.R$menu
+com.kulver.blueque.R$string
+com.kulver.blueque.back.BgWork
+com.kulver.blueque.back.BluetoothMethods:
+    62:62:public java.util.ArrayList getDeviceList()
+com.kulver.blueque.back.BluetoothShare:
+    public static final java.lang.String PERMISSION_ACCESS
+    public static final java.lang.String TRANSFER_COMPLETED_ACTION
+    public static final java.lang.String INCOMING_FILE_CONFIRMATION_REQUEST_ACTION
+    public static final java.lang.String USER_CONFIRMATION_TIMEOUT_ACTION
+    public static final java.lang.String URI
+    public static final java.lang.String FILENAME_HINT
+    public static final java.lang.String _DATA
+    public static final java.lang.String MIMETYPE
+    public static final java.lang.String DIRECTION
+    public static final java.lang.String DESTINATION
+    public static final java.lang.String VISIBILITY
+    public static final java.lang.String USER_CONFIRMATION
+    public static final java.lang.String STATUS
+    public static final java.lang.String TOTAL_BYTES
+    public static final java.lang.String CURRENT_BYTES
+    public static final java.lang.String TIMESTAMP
+    public static final int DIRECTION_OUTBOUND
+    public static final int DIRECTION_INBOUND
+    public static final int USER_CONFIRMATION_PENDING
+    public static final int USER_CONFIRMATION_CONFIRMED
+    public static final int USER_CONFIRMATION_AUTO_CONFIRMED
+    public static final int USER_CONFIRMATION_DENIED
+    public static final int USER_CONFIRMATION_TIMEOUT
+    public static final int VISIBILITY_VISIBLE
+    public static final int VISIBILITY_HIDDEN
+    public static final int STATUS_PENDING
+    public static final int STATUS_RUNNING
+    public static final int STATUS_SUCCESS
+    public static final int STATUS_BAD_REQUEST
+    public static final int STATUS_FORBIDDEN
+    public static final int STATUS_NOT_ACCEPTABLE
+    public static final int STATUS_LENGTH_REQUIRED
+    public static final int STATUS_PRECONDITION_FAILED
+    public static final int STATUS_CANCELED
+    public static final int STATUS_UNKNOWN_ERROR
+    public static final int STATUS_FILE_ERROR
+    public static final int STATUS_ERROR_NO_SDCARD
+    public static final int STATUS_ERROR_SDCARD_FULL
+    public static final int STATUS_UNHANDLED_OBEX_CODE
+    public static final int STATUS_OBEX_DATA_ERROR
+    public static final int STATUS_CONNECTION_ERROR
+    45:46:private BluetoothShare()
+    275:275:public static boolean isStatusInformational(int)
+    283:283:public static boolean isStatusSuspended(int)
+    290:290:public static boolean isStatusSuccess(int)
+    297:297:public static boolean isStatusError(int)
+    304:304:public static boolean isStatusClientError(int)
+    311:311:public static boolean isStatusServerError(int)
+    319:319:public static boolean isStatusCompleted(int)
+com.kulver.blueque.back.Dialogs
+com.kulver.blueque.back.Que:
+    30:36:public void removeFileFromQueByName(java.lang.String)
+    39:40:public void removeFileFromQueByObject(java.io.File)

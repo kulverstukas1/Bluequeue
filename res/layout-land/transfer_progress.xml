@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" >
+    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <ProgressBar
+                android:id="@+id/transfer_indicator"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/drawable_small_indicator" />
+            
+		    <TextView
+		        android:id="@+id/transferring_message"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Transferring files..."
+		        android:textSize="20dp" />
+		    
+        </LinearLayout>
+	    
+	    <ProgressBar
+	        android:id="@+id/transfer_progressBar"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp" />
+
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+		    <TextView
+		        android:id="@+id/transfer_status_files"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="0 / 10"
+		        android:paddingRight="50dp"
+		        android:paddingLeft="20dp" />
+	        <TextView
+	            android:id="@+id/transfer_status_curr_file"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="File: someshit.mp4" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/cancel_transfer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:width="150dp" />
+            
+	    </LinearLayout>
+
+</LinearLayout>

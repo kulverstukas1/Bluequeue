@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/about"
+          android:enabled="true"
+          android:title="About"
+          android:visible="true"
+          android:icon="@drawable/ic_menu_about" />
+    
+    <item android:id="@+id/que"
+          android:enabled="true"
+          android:title="Show queue"
+          android:visible="true"
+          android:icon="@drawable/ic_menu_que" />
+    
+    <item android:id="@+id/send_main"
+          android:enabled="true"
+          android:title="Send"
+          android:visible="true"
+          android:icon="@drawable/ic_menu_bluetooth" />
+    
+    <item android:id="@+id/addAll"
+          android:enabled="true"
+          android:title="Add all"
+          android:visible="true"
+          android:icon="@drawable/ic_menu_addall" />
+    
+    <item android:id="@+id/clear"
+          android:enabled="true"
+          android:title="Clear queue"
+          android:visible="true"
+          android:icon="@drawable/ic_menu_removeall" />
+    
+</menu>
